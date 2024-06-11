@@ -18,3 +18,6 @@ Escribe en la consola «Set-ExecutionPolicy Unrestricted» y a continuación con
 
 #Creo main.py y lo ejecuto (con --reload para que el servidor no se pare al hacer un cambio):
 #uvicorn main:app --reload
+
+#el swagger está en /docs:
+#http://127.0.0.1:8000/docs
