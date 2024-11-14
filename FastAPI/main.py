@@ -7,7 +7,7 @@ class Libro(BaseModel):
     Autor:str
     Paginas:int
     Editorial:Optional[str]
-
+ 
 app = FastAPI()
 
 @app.get("/")
